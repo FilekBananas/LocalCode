@@ -1,0 +1,4 @@
+- Build/typecheck with `npx tsc --noEmit` (or the project's `npm run build`/`typecheck`). Respect `tsconfig.json` — if `"strict": true`, no implicit `any`, null-checks on.
+- Type public function params and return values; let inference handle locals. Prefer `interface`/`type` aliases, `unknown` over `any`, union types and discriminated unions, `as const`, generics where they remove duplication.
+- Avoid `any` and non-null `!` unless justified. Don't use `@ts-ignore` to hide a real bug.
+- Same package-manager/test rules as JavaScript; test files `*.test.ts` (ts-jest/vitest).

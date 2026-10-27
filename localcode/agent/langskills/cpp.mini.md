@@ -1,0 +1,4 @@
+- Build with the project's system: CMake (`CMakeLists.txt`) → `cmake -B build && cmake --build build` then `ctest --test-dir build`; or a `Makefile` → `make`. Match the existing C++ standard (`-std=c++17`/`20`).
+- RAII everything: manage resources with objects/destructors, use smart pointers (`std::unique_ptr`, `std::shared_ptr`) not raw `new`/`delete`. Prefer `std::vector`/`std::string`/containers over C arrays.
+- Pass by `const&` for big objects; use `auto`, range-based `for`, `nullptr`, `constexpr`, `<algorithm>`. Follow the rule of 0/3/5.
+- Tests: GoogleTest/Catch2 if present; run via `ctest`.

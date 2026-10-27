@@ -1,0 +1,4 @@
+- Use the .NET CLI: `dotnet build`, `dotnet test`, `dotnet run`. Add packages with `dotnet add package <name>` (restores via NuGet; project files are `*.csproj`).
+- Idioms: `var` for obvious types, properties over public fields, `async`/`await` (suffix `Async`, pass `CancellationToken`), LINQ, `using` declarations for `IDisposable`, nullable reference types (`?`) if enabled. PascalCase for methods/types, camelCase for locals.
+- Throw specific exceptions; don't catch-all and swallow. Prefer `IEnumerable<T>`/interfaces in signatures.
+- Tests: xUnit (`[Fact]`/`[Theory]`), NUnit, or MSTest; run `dotnet test`.

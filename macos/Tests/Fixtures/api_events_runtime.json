@@ -1,0 +1,44 @@
+{
+  "type": "runtime",
+  "instances": [
+    {
+      "id": "qwen3-0.6b-q4_k_m-1",
+      "modelKey": "unsloth/Qwen3-0.6B-GGUF/Qwen3-0.6B-Q4_K_M",
+      "displayName": "Qwen3 0.6B · Q4_K_M",
+      "format": "gguf",
+      "state": "ready",
+      "nCtx": 8192,
+      "nParallel": 1,
+      "busySlots": 0,
+      "memoryBytes": 1951465472,
+      "estimatedBytes": 1531531574,
+      "loadedAt": 1790166977299,
+      "lastUsedAt": 1790167121153,
+      "pid": 63150,
+      "port": 53298,
+      "genTps": 40.3,
+      "error": null
+    }
+  ],
+  "system": {
+    "totalBytes": 34359738368,
+    "usedBytes": 28925804544,
+    "availableBytes": 5433933824
+  },
+  "budget": {
+    "limitBytes": 24051816857,
+    "usedBytes": 1951465472
+  },
+  "settings": {
+    "maxLoadedModels": 2,
+    "maxInstancesPerModel": 1,
+    "defaultParallel": 1,
+    "ramLimitGb": null,
+    "idleTtlMinutes": 30,
+    "defaultCtx": null,
+    "flashAttn": "auto",
+    "kvCacheType": "f16",
+    "gpuLayers": -1,
+    "evictPolicy": "lru"
+  }
+}

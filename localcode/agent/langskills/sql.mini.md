@@ -1,0 +1,4 @@
+- Parameterize queries from application code — never string-concatenate user input (SQL injection). Use the dialect the project targets (PostgreSQL/MySQL/SQLite/SQL Server); syntax differs.
+- Write explicit column lists, not `SELECT *`. Qualify columns in joins, use explicit `JOIN ... ON`, and always scope `UPDATE`/`DELETE` with a `WHERE`.
+- Schema changes go through the project's migration tool (versioned, reversible), not ad-hoc DDL. Wrap multi-step changes in a transaction.
+- Index columns used in `WHERE`/`JOIN`; keep queries sargable (avoid wrapping indexed columns in functions). Uppercase keywords, one clause per line.

@@ -1,0 +1,4 @@
+- Cargo project (`Cargo.toml`): build `cargo build`, test `cargo test`, run `cargo run`, lint `cargo clippy`, format `cargo fmt`. Add deps with `cargo add <crate>`.
+- Return `Result<T, E>` for fallible work and use `?` to propagate; reserve `panic!`/`unwrap()`/`expect()` for truly impossible cases or tests. Use `Option<T>` instead of null.
+- Respect ownership/borrowing: prefer borrows `&`/`&mut`, `clone()` only when needed. Use `match`, iterators, `enum`s, pattern matching. Let the compiler guide you — fix errors, don't `unsafe` around them.
+- Tests: `#[test]` fns and `#[cfg(test)] mod tests`; `cargo test`.

@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+macos/.build/
+macos/.swiftpm/
+dist/
+*.egg-info/
+.DS_Store
+
+# Store-catalogue build (scripts/hub_fetch.py → scripts/build_catalog.py).
+# The generated localcode/hub/data/catalog.json.gz IS committed; its inputs are not.
+.cache/
+
+# Local state, builds, notes
+.localcode/
+.planning/
+build/
+.pytest_cache/
+macos/dist/
+*.log

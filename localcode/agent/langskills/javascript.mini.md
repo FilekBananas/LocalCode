@@ -1,0 +1,4 @@
+- Use the lockfile's package manager: `package-lock.json`→npm, `pnpm-lock.yaml`→pnpm, `yarn.lock`→yarn. Install with that; run scripts via `npm run <name>` (see `package.json` "scripts").
+- Modern JS: `const`/`let` (never `var`), arrow functions, `async/await`, template literals, destructuring, optional chaining `?.`, spread `...`. Check `"type"` in package.json: `"module"`→ESM `import`, else CommonJS `require`.
+- Use `===`/`!==`. Handle promise rejections (try/catch around `await`).
+- Tests: whatever `package.json` declares (jest/vitest/node:test); run `npm test`.

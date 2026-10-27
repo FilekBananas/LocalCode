@@ -1,0 +1,4 @@
+- Module project (`go.mod`): build `go build ./...`, test `go test ./...`, vet `go vet ./...`, format `gofmt -w .` (or `go fmt ./...`). Add deps with `go get`, tidy with `go mod tidy`.
+- Handle every error explicitly: `if err != nil { return ..., err }`; wrap with `fmt.Errorf("...: %w", err)`. Don't ignore errors with `_` unless deliberate.
+- Idioms: short names, exported = Capitalized, `defer` for cleanup, small interfaces, zero values, goroutines + channels (or `sync`). Run `gofmt` — Go has one canonical format.
+- Tests: `*_test.go`, `func TestX(t *testing.T)`, table-driven; `go test ./...`.

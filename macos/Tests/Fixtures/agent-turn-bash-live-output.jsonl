@@ -1,0 +1,149 @@
+{"type": "session", "session": {"id": "20260923-143822-ab672a", "cwd": "/tmp/proj", "modelKey": "unsloth/Qwen3-0.6B-GGUF/Qwen3-0.6B-Q4_K_M", "mode": "default", "title": "", "createdAt": 1790167102497, "updatedAt": 1790167102497, "contextUsed": 0, "contextLimit": 0, "busy": false}}
+{"type": "history", "items": []}
+{"type": "session", "session": {"id": "20260923-143822-ab672a", "cwd": "/tmp/proj", "modelKey": "unsloth/Qwen3-0.6B-GGUF/Qwen3-0.6B-Q4_K_M", "mode": "default", "title": "", "createdAt": 1790167102497, "updatedAt": 1790167102498, "contextUsed": 0, "contextLimit": 0, "busy": true}}
+{"type": "ack", "of": "user", "status": "started"}
+{"type": "session", "session": {"id": "20260923-143822-ab672a", "cwd": "/tmp/proj", "modelKey": "unsloth/Qwen3-0.6B-GGUF/Qwen3-0.6B-Q4_K_M", "mode": "default", "title": "Run the shell command `ls -la` in the project directory usi…", "createdAt": 1790167102497, "updatedAt": 1790167102498, "contextUsed": 0, "contextLimit": 0, "busy": true}}
+{"type": "turn_start", "turnId": "2f4864f8f4cc", "userText": "Run the shell command `ls -la` in the project directory using the bash tool."}
+{"type": "context", "used": 996, "limit": 8192, "system": 259, "tools": 711, "history": 26, "reserve": 1638}
+{"type": "reasoning_delta", "text": "Okay"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " user"}
+{"type": "reasoning_delta", "text": " wants"}
+{"type": "reasoning_delta", "text": " me"}
+{"type": "reasoning_delta", "text": " to"}
+{"type": "reasoning_delta", "text": " run"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " shell"}
+{"type": "reasoning_delta", "text": " command"}
+{"type": "reasoning_delta", "text": " `"}
+{"type": "reasoning_delta", "text": "ls"}
+{"type": "reasoning_delta", "text": " -"}
+{"type": "reasoning_delta", "text": "la"}
+{"type": "reasoning_delta", "text": "`"}
+{"type": "reasoning_delta", "text": " in"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " project"}
+{"type": "reasoning_delta", "text": " directory"}
+{"type": "reasoning_delta", "text": " using"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " bash"}
+{"type": "reasoning_delta", "text": " tool"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " Let"}
+{"type": "reasoning_delta", "text": " me"}
+{"type": "reasoning_delta", "text": " check"}
+{"type": "reasoning_delta", "text": " what"}
+{"type": "reasoning_delta", "text": " tools"}
+{"type": "reasoning_delta", "text": " I"}
+{"type": "reasoning_delta", "text": " have"}
+{"type": "reasoning_delta", "text": " available"}
+{"type": "reasoning_delta", "text": ".\n\n"}
+{"type": "reasoning_delta", "text": "Looking"}
+{"type": "reasoning_delta", "text": " at"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " provided"}
+{"type": "reasoning_delta", "text": " functions"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " there"}
+{"type": "reasoning_delta", "text": "'s"}
+{"type": "reasoning_delta", "text": " a"}
+{"type": "reasoning_delta", "text": " bash"}
+{"type": "reasoning_delta", "text": " tool"}
+{"type": "reasoning_delta", "text": " that"}
+{"type": "reasoning_delta", "text": " takes"}
+{"type": "reasoning_delta", "text": " a"}
+{"type": "reasoning_delta", "text": " command"}
+{"type": "reasoning_delta", "text": " and"}
+{"type": "reasoning_delta", "text": " runs"}
+{"type": "reasoning_delta", "text": " it"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " The"}
+{"type": "reasoning_delta", "text": " parameters"}
+{"type": "reasoning_delta", "text": " require"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " command"}
+{"type": "reasoning_delta", "text": " as"}
+{"type": "reasoning_delta", "text": " a"}
+{"type": "reasoning_delta", "text": " string"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " Since"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " user"}
+{"type": "reasoning_delta", "text": " specified"}
+{"type": "reasoning_delta", "text": " exactly"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " command"}
+{"type": "reasoning_delta", "text": " they"}
+{"type": "reasoning_delta", "text": " want"}
+{"type": "reasoning_delta", "text": " executed"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " I"}
+{"type": "reasoning_delta", "text": " can"}
+{"type": "reasoning_delta", "text": " use"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " bash"}
+{"type": "reasoning_delta", "text": " function"}
+{"type": "reasoning_delta", "text": " with"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " command"}
+{"type": "reasoning_delta", "text": " parameter"}
+{"type": "reasoning_delta", "text": " set"}
+{"type": "reasoning_delta", "text": " to"}
+{"type": "reasoning_delta", "text": " `"}
+{"type": "reasoning_delta", "text": "ls"}
+{"type": "reasoning_delta", "text": " -"}
+{"type": "reasoning_delta", "text": "la"}
+{"type": "reasoning_delta", "text": "`."}
+{"type": "reasoning_delta", "text": " \n\n"}
+{"type": "reasoning_delta", "text": "I"}
+{"type": "reasoning_delta", "text": " don"}
+{"type": "reasoning_delta", "text": "'t"}
+{"type": "reasoning_delta", "text": " need"}
+{"type": "reasoning_delta", "text": " any"}
+{"type": "reasoning_delta", "text": " other"}
+{"type": "reasoning_delta", "text": " tools"}
+{"type": "reasoning_delta", "text": " here"}
+{"type": "reasoning_delta", "text": " because"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " task"}
+{"type": "reasoning_delta", "text": " is"}
+{"type": "reasoning_delta", "text": " straightforward"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " Just"}
+{"type": "reasoning_delta", "text": " call"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " bash"}
+{"type": "reasoning_delta", "text": " function"}
+{"type": "reasoning_delta", "text": " with"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " correct"}
+{"type": "reasoning_delta", "text": " command"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " No"}
+{"type": "reasoning_delta", "text": " need"}
+{"type": "reasoning_delta", "text": " to"}
+{"type": "reasoning_delta", "text": " explore"}
+{"type": "reasoning_delta", "text": " directories"}
+{"type": "tool_call", "callId": "47Tkmvk2O", "name": "bash", "arguments": {"command": "ls -la"}, "title": "Polecenie: ls -la"}
+{"type": "status", "message": "total 24", "phase": "tool"}
+{"type": "status", "message": "drwxr-xr-x 5 user  wheel 160 23 wrz 14:37 .", "phase": "tool"}
+{"type": "status", "message": "drwxr-xr-x 9 user  wheel 288 23 wrz 14:38 ..", "phase": "tool"}
+{"type": "status", "message": "-rw-r--r-- 1 user  wheel 15 23 wrz 14:37 main.py", "phase": "tool"}
+{"type": "status", "message": "-rw-r--r-- 1 user  wheel 16 23 wrz 14:37 notes.txt", "phase": "tool"}
+{"type": "status", "message": "-rw-r--r-- 1 user  wheel 9 23 wrz 14:37 report.md", "phase": "tool"}
+{"type": "tool_result", "callId": "47Tkmvk2O", "name": "bash", "ok": true, "summary": "Kod wyjścia 0", "output": "total 24\ndrwxr-xr-x  5 user  wheel  160 23 wrz 14:37 .\ndrwxr-xr-x  9 user  wheel  288 23 wrz 14:38 ..\n-rw-r--r--  1 user  wheel   15 23 wrz 14:37 main.py\n-rw-r--r--  1 user  wheel   16 23 wrz 14:37 notes.txt\n-rw-r--r--  1 user  wheel    9 23 wrz 14:37 report.md\n[exit code 0]", "diff": null}
+{"type": "context", "used": 1192, "limit": 8192, "system": 259, "tools": 711, "history": 222, "reserve": 1638}
+{"type": "tool_call", "callId": "THGj7JFJy", "name": "bash", "arguments": {"command": "ls -la"}, "title": "Polecenie: ls -la"}
+{"type": "status", "message": "total 24", "phase": "tool"}
+{"type": "status", "message": "drwxr-xr-x 5 user  wheel 160 23 wrz 14:37 .", "phase": "tool"}
+{"type": "status", "message": "drwxr-xr-x 9 user  wheel 288 23 wrz 14:38 ..", "phase": "tool"}
+{"type": "status", "message": "-rw-r--r-- 1 user  wheel 15 23 wrz 14:37 main.py", "phase": "tool"}
+{"type": "status", "message": "-rw-r--r-- 1 user  wheel 16 23 wrz 14:37 notes.txt", "phase": "tool"}
+{"type": "status", "message": "-rw-r--r-- 1 user  wheel 9 23 wrz 14:37 report.md", "phase": "tool"}
+{"type": "tool_result", "callId": "THGj7JFJy", "name": "bash", "ok": true, "summary": "Kod wyjścia 0", "output": "total 24\ndrwxr-xr-x  5 user  wheel  160 23 wrz 14:37 .\ndrwxr-xr-x  9 user  wheel  288 23 wrz 14:38 ..\n-rw-r--r--  1 user  wheel   15 23 wrz 14:37 main.py\n-rw-r--r--  1 user  wheel   16 23 wrz 14:37 notes.txt\n-rw-r--r--  1 user  wheel    9 23 wrz 14:37 report.md\n[exit code 0]", "diff": null}
+{"type": "context", "used": 1388, "limit": 8192, "system": 259, "tools": 711, "history": 418, "reserve": 1638}
+{"type": "session", "session": {"id": "20260923-143822-ab672a", "cwd": "/tmp/proj", "modelKey": "unsloth/Qwen3-0.6B-GGUF/Qwen3-0.6B-Q4_K_M", "mode": "default", "title": "Run the shell command `ls -la` in the project directory usi…", "createdAt": 1790167102497, "updatedAt": 1790167114716, "contextUsed": 1388, "contextLimit": 8192, "busy": false}}
+{"type": "turn_end", "turnId": "2f4864f8f4cc", "reason": "done", "stats": {"promptTokens": 3576, "cachedTokens": 2429, "completionTokens": 472, "promptTps": 876.6, "genTps": 39.4, "totalMs": 11919, "steps": 3, "elapsedMs": 12215}}
+{"type": "session", "session": {"id": "20260923-143822-ab672a", "cwd": "/tmp/proj", "modelKey": "unsloth/Qwen3-0.6B-GGUF/Qwen3-0.6B-Q4_K_M", "mode": "default", "title": "Run the shell command `ls -la` in the project directory usi…", "createdAt": 1790167102497, "updatedAt": 1790167114716, "contextUsed": 1388, "contextLimit": 8192, "busy": false}}
+{"type": "session", "session": {"id": "20260923-143822-ab672a", "cwd": "/tmp/proj", "modelKey": "unsloth/Qwen3-0.6B-GGUF/Qwen3-0.6B-Q4_K_M", "mode": "plan", "title": "Run the shell command `ls -la` in the project directory usi…", "createdAt": 1790167102497, "updatedAt": 1790167114729, "contextUsed": 1388, "contextLimit": 8192, "busy": false}}

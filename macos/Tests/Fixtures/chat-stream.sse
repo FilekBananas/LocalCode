@@ -1,0 +1,64 @@
+data: {"type": "start", "conversationId": "8ba50edd-6fdf-4e15-9a9a-5bf5a69fcf33", "userMessage": {"id": "5fcf83a7-4510-417f-9e69-b2ec53a50f03", "conversationId": "8ba50edd-6fdf-4e15-9a9a-5bf5a69fcf33", "role": "user", "content": "Powiedz krótko czesc", "reasoning": null, "provider": null, "model": null, "status": "complete", "error": null, "tokensIn": null, "tokensOut": null, "costUsd": null, "latencyMs": null, "seq": 1, "createdAt": 1790192176742, "attachments": [], "citations": []}, "assistantMessageId": "614d6d13-9238-4d44-b15d-7d7a374251c2"}
+
+data: {"type": "context", "used": 157, "limit": 32768, "system": 137, "tools": 0, "history": 20, "reserve": 4096, "summary": 0}
+
+data: {"type": "text", "delta": "**"}
+
+data: {"type": "text", "delta": "C"}
+
+data: {"type": "text", "delta": "zę"}
+
+data: {"type": "text", "delta": "ść"}
+
+data: {"type": "text", "delta": ":**"}
+
+data: {"type": "text", "delta": "  \n"}
+
+data: {"type": "text", "delta": "Z"}
+
+data: {"type": "text", "delta": "n"}
+
+data: {"type": "text", "delta": "aj"}
+
+data: {"type": "text", "delta": "omo"}
+
+data: {"type": "text", "delta": "ści"}
+
+data: {"type": "text", "delta": " z"}
+
+data: {"type": "text", "delta": " pod"}
+
+data: {"type": "text", "delta": "staw"}
+
+data: {"type": "text", "delta": "owych"}
+
+data: {"type": "text", "delta": " praw"}
+
+data: {"type": "text", "delta": "om"}
+
+data: {"type": "text", "delta": "ath"}
+
+data: {"type": "text", "delta": "emat"}
+
+data: {"type": "text", "delta": "ycz"}
+
+data: {"type": "text", "delta": "nych"}
+
+data: {"type": "text", "delta": " termin"}
+
+data: {"type": "text", "delta": "ów"}
+
+data: {"type": "text", "delta": " i"}
+
+data: {"type": "text", "delta": " działa"}
+
+data: {"type": "text", "delta": "ń"}
+
+data: {"type": "text", "delta": "."}
+
+data: {"type": "usage", "tokensIn": 161, "tokensOut": 28, "costUsd": 0}
+
+data: {"type": "done", "message": {"id": "614d6d13-9238-4d44-b15d-7d7a374251c2", "conversationId": "8ba50edd-6fdf-4e15-9a9a-5bf5a69fcf33", "role": "assistant", "content": "**Część:**  \nZnajomości z podstawowych prawomathematycznych terminów i działań.", "reasoning": null, "provider": "local", "model": "unsloth/Qwen3-0.6B-GGUF/Qwen3-0.6B-Q4_K_M", "status": "complete", "error": null, "tokensIn": 161, "tokensOut": 28, "costUsd": 0.0, "latencyMs": 310, "seq": 2, "createdAt": 1790192176745, "attachments": [], "citations": []}}
+
+data: {"type": "title", "conversationId": "8ba50edd-6fdf-4e15-9a9a-5bf5a69fcf33", "title": "Czesc"}
+

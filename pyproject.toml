@@ -1,0 +1,83 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "localcode"
+version = "0.1.0"
+description = "LocalCode — lokalny agent kodujący i chatbot dla modeli GGUF/MLX z Hugging Face"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "huggingface_hub>=1.0",
+  "gguf>=0.10",
+  "jinja2>=3.1",
+  "rich>=13",
+  "prompt_toolkit>=3.0.40",
+  "aiohttp>=3.9",
+  "psutil>=5.9",
+  "pypdf>=4",
+]
+
+[project.optional-dependencies]
+mlx = ["mlx-lm>=0.26"]
+# Local image generation (docs/IMAGES.md): mflux runs MLX diffusion models on
+# Apple Silicon, stable-diffusion-cpp-python runs GGUF ones through Metal, and
+# Pillow saves/validates the PNGs. Without this extra the image runtime is
+# unavailable and every entry point explains that in Polish.
+images = [
+  "mflux>=0.20",
+  "stable-diffusion-cpp-python>=0.4",
+  "pillow>=10",
+]
+# Speech (docs/SPEECH.md): mlx-whisper transcribes, mlx-audio reads text aloud.
+# Both are MLX-only, so they need Apple Silicon; without the extra every entry
+# point says what to install instead of failing with an ImportError.
+speech = [
+  "mlx-whisper>=0.4",
+  "mlx-audio>=0.2",
+  # Kokoro turns text into phonemes with misaki, and misaki needs its English
+  # extra (num2words and friends) — without either, mlx-audio loads the model,
+  # prints "requires the optional 'misaki' package" and writes no file at all.
+  "misaki[en]>=0.9",
+]
+# Local video generation (docs/VIDEO.md): the catalogue's "wideo" shelf only
+# ships GGUF checkpoints (community requantizations for ComfyUI-GGUF), and
+# there is no MLX engine that runs the small LTX-Video 2B model this targets
+# (the MLX video ports that exist target the much larger LTX-2 family) — so
+# this is diffusers on PyTorch's MPS backend, not MLX. diffusers loads the
+# GGUF transformer directly (GGUFQuantizationConfig); transformers/sentencepiece
+# are for the T5 text encoder, accelerate for device placement, imageio for
+# writing the .mp4. This pulls in PyTorch, which nothing else here needs.
+video = [
+  "diffusers>=0.33",
+  "transformers>=4.46",
+  "accelerate>=0.34",
+  "sentencepiece>=0.2",
+  "torch>=2.3",
+  "imageio[ffmpeg]>=2.34",
+]
+dev = ["pytest>=8", "pytest-asyncio>=0.23"]
+
+[project.scripts]
+localcode = "localcode.cli:main"
+lc = "localcode.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["localcode*"]
+
+[tool.setuptools.package-data]
+# The shipped store index (scripts/build_catalog.py) — without it an installed
+# LocalCode would show sixty staff picks instead of thousands of models.
+"localcode.hub" = ["data/*.json.gz", "data/logos/*.png"]
+# Per-language coding notes injected into the agent's system prompt
+# (localcode/agent/langskills/<lang>.mini.md and .max.md).
+"localcode.agent.langskills" = ["*.md"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+markers = [
+  "real_model: needs downloaded test models under ~/.localcode/models (slow)",
+  "network: needs internet access to huggingface.co",
+]

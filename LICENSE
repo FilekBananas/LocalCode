@@ -1,0 +1,301 @@
+LocalCode License 1.0
+Copyright (c) 2026 Filip Biskupski. All rights reserved except as expressly granted below.
+
+This file contains the license in English and in Polish. Both versions are binding; in case of any
+discrepancy the Polish version prevails.
+
+This software is source-available. It is NOT open source and NOT free for organizations.
+
+==================================================================================================
+ENGLISH VERSION
+==================================================================================================
+
+1. Definitions
+
+  "Licensor" means Filip Biskupski.
+
+  "Software" means the LocalCode source code, the terminal and macOS applications, the local
+  server, the system prompts, language notes and skills, the model catalogue, trust and safety
+  logic (including the Auto-mode reviewer, the local guard, permission rules and the shell
+  sandbox), tests, documentation and any other material in this repository, including compiled
+  forms of them, except the Third-Party Components described in section 7.
+
+  "You" means the natural person exercising rights under this license.
+
+  "Private Use" means use by a natural person, on devices that person owns or personally controls,
+  solely for that person's own personal purposes that are not connected with any business,
+  profession, trade, employment, paid work or the activity of any Organization.
+
+  "Organization" means any entity other than a natural person acting privately, including without
+  limitation: companies and partnerships of any size, sole proprietorships and self-employed persons
+  acting in that capacity, public authorities and government bodies, schools, universities and other
+  educational institutions, foundations, associations, charities, non-profit organizations, and any
+  person acting on behalf of, for the benefit of, or at the request of any of them (including
+  employees, contractors, agents and volunteers).
+
+  "Modification" means any change to, translation of, adaptation of or work based on the Software or
+  any part of it, including any software that incorporates, links to or is derived from any part of
+  the Software.
+
+2. License grant
+
+  Subject to full compliance with this license, the Licensor grants You a personal, non-exclusive,
+  non-transferable, non-sublicensable, royalty-free, worldwide license for an indefinite period
+  (subject to sections 5 and 11), for Private Use only, to:
+  (a) download, install and run the Software;
+  (b) read and study the source code;
+  (c) make Modifications for Your own Private Use, without distributing them;
+  (d) share exact, unmodified copies of the Software with other natural persons for their Private
+      Use, free of charge, together with this license and all copyright notices.
+
+  No other rights are granted, whether by implication, estoppel or otherwise.
+
+3. Prohibited without the Licensor's prior written consent
+
+  Unless the Licensor has given You separate prior written consent (for example a commercial
+  license), You may not:
+  (a) use, install or run the Software by, for, on behalf of, or on any device owned, managed or
+      provided by an Organization, including inside a business, office, school or public authority;
+  (b) use the Software for any commercial purpose or for any purpose connected with paid work,
+      including providing services to others or writing code for others;
+  (c) sell, rent, lease or otherwise charge for the Software or any Modification, or include it in
+      any product, service, bundle or distribution;
+  (d) distribute, publish or make available any Modification, or any part of the Software separately;
+  (e) offer the Software or any Modification as a hosted, online or network service, including
+      exposing its local server or API to other people;
+  (f) use the Software, its prompts, skills, language notes, model catalogue, trust scoring,
+      reviewer and guard logic, permission rules or sandbox profiles to build, train, improve or
+      benchmark any other AI coding tool, assistant, model or security product;
+  (g) remove, alter or obscure any copyright notice, license text or attribution;
+  (h) use the name "LocalCode", the Licensor's name or any confusingly similar name for any
+      Modification or derived product.
+
+4. Rights in Modifications
+
+  4.1 If You make any Modification, You grant the Licensor a perpetual, irrevocable, worldwide,
+      royalty-free, non-exclusive, transferable and sublicensable license to use, copy, modify,
+      distribute, publish, sublicense and commercially exploit that Modification in any form and
+      by any means, including the right to include it in the Software under any license terms.
+  4.2 You grant the Licensor the same license under any patent rights You hold that cover the
+      Modification, and You will not assert any copyright, patent or other claim against the
+      Licensor or the Licensor's licensees regarding any Modification.
+  4.3 A Modification remains subject to this license. You obtain no right to use it beyond what
+      section 2 allows.
+  4.4 Contributions to the official LocalCode repository are accepted only after signing the
+      Licensor's separate contributor agreement, which transfers the economic copyrights in the
+      contribution to the Licensor.
+
+5. Termination
+
+  Any breach of this license automatically and immediately terminates all rights granted to You.
+  After termination You must stop using the Software and delete all copies and Modifications in
+  Your possession. The license granted in section 4 survives termination. The Licensor may restore
+  Your rights only in writing.
+
+6. Commercial and organizational licenses
+
+  Organizations and anyone who wants rights beyond this license may request a separate written
+  license from the Licensor through the official LocalCode repository.
+
+7. Third-party components
+
+  Language, image, video and speech models that the Software downloads (for example from Hugging
+  Face or LM Studio folders), the inference runtimes it drives (for example llama.cpp, mlx-lm,
+  mflux), the services of remote model providers You connect with Your own API keys (for example
+  OpenAI, Anthropic, Google, DeepInfra, unlid.ai), the Cerber scanner and the Python and Swift
+  packages the Software depends on are not part of the Software and are not licensed under this
+  license. They remain subject to their own licenses and terms, which You must comply with.
+  Charges from remote providers are Yours alone.
+
+8. No warranty
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+  WITHOUT LIMITATION ANY WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY OR
+  NON-INFRINGEMENT. THE SOFTWARE RUNS AI MODELS THAT CAN WRITE, CHANGE AND DELETE FILES AND RUN
+  COMMANDS ON YOUR COMPUTER, AND CAN SEND DATA TO REMOTE PROVIDERS YOU CONFIGURE; ITS REVIEWERS,
+  GUARDS, PERMISSION RULES AND SANDBOX DO NOT CATCH EVERY HARMFUL ACTION. MODELS MAY PRODUCE WRONG
+  OR UNSAFE CODE. YOU ARE RESPONSIBLE FOR YOUR OWN BACKUPS, FOR REVIEWING WHAT THE SOFTWARE DOES
+  AND FOR ANY COSTS CHARGED BY REMOTE PROVIDERS.
+
+9. Limitation of liability
+
+  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR SHALL NOT BE LIABLE FOR ANY
+  DAMAGES ARISING FROM OR RELATED TO THE SOFTWARE OR THIS LICENSE, INCLUDING LOSS OF DATA, PROFITS
+  OR USE, WHETHER IN CONTRACT, TORT OR OTHERWISE. THIS DOES NOT LIMIT LIABILITY THAT CANNOT BE
+  LIMITED UNDER APPLICABLE LAW, IN PARTICULAR FOR DAMAGE CAUSED INTENTIONALLY.
+
+10. Governing law
+
+  This license is governed by the law of the Republic of Poland, excluding its conflict-of-law
+  rules. Disputes shall be resolved by the common court having jurisdiction over the Licensor's
+  place of residence, unless mandatory law (in particular consumer protection law) provides
+  otherwise. If any provision is held unenforceable, the remaining provisions stay in effect and
+  the unenforceable provision shall be replaced by a valid one closest to its purpose.
+
+11. Changes of license
+
+  11.1 The Licensor reserves the right to change this license or to license the Software under any
+       other terms at any time, including publishing new versions of this license, granting
+       separate licenses to particular persons, or releasing the Software under a different
+       license (including an open-source license).
+  11.2 A new license applies to every copy of the Software obtained after the new license is
+       published in the official LocalCode repository.
+  11.3 For copies obtained earlier, the Licensor may terminate this license by publishing a notice
+       in the official LocalCode repository, with 30 days' notice. If the Licensor offers new terms
+       together with the notice, continued use of the Software after the notice period means
+       acceptance of the new terms; otherwise You must stop using the Software and delete it.
+  11.4 The license granted to the Licensor in section 4 cannot be changed or terminated by any
+       change of this license.
+
+==================================================================================================
+WERSJA POLSKA
+==================================================================================================
+
+1. Definicje
+
+  „Licencjodawca” – Filip Biskupski.
+
+  „Oprogramowanie” – kod źródłowy LocalCode, aplikacje terminalowa i na macOS, lokalny serwer,
+  prompty systemowe, notatki językowe i skille, katalog modeli, logika zaufania i bezpieczeństwa
+  (w tym recenzent trybu Auto, strażnik lokalny, reguły uprawnień i piaskownica powłoki), testy,
+  dokumentacja oraz wszelkie inne materiały w tym repozytorium, w tym ich postaci skompilowane,
+  z wyłączeniem Komponentów Zewnętrznych opisanych w pkt 7.
+
+  „Ty” – osoba fizyczna korzystająca z uprawnień z tej licencji.
+
+  „Użytek Prywatny” – korzystanie przez osobę fizyczną, na urządzeniach, które są jej własnością
+  lub pozostają pod jej osobistą kontrolą, wyłącznie do jej własnych celów osobistych,
+  niezwiązanych z jakąkolwiek działalnością gospodarczą, zawodową, zatrudnieniem, pracą zarobkową
+  ani działalnością jakiejkolwiek Organizacji.
+
+  „Organizacja” – każdy podmiot inny niż osoba fizyczna działająca prywatnie, w szczególności:
+  spółki i przedsiębiorstwa każdej wielkości, jednoosobowe działalności gospodarcze i osoby
+  samozatrudnione działające w tym charakterze, organy i urzędy władzy publicznej, szkoły, uczelnie
+  i inne placówki edukacyjne, fundacje, stowarzyszenia, organizacje charytatywne i non-profit, a
+  także każda osoba działająca w imieniu, na rzecz lub na zlecenie któregokolwiek z nich (w tym
+  pracownicy, zleceniobiorcy, pełnomocnicy i wolontariusze).
+
+  „Modyfikacja” – każda zmiana, tłumaczenie, adaptacja lub utwór oparty na Oprogramowaniu albo jego
+  części, w tym oprogramowanie, które zawiera jakąkolwiek część Oprogramowania, łączy się z nią lub
+  z niej pochodzi.
+
+2. Udzielenie licencji
+
+  Pod warunkiem pełnego przestrzegania tej licencji Licencjodawca udziela Ci osobistej,
+  niewyłącznej, nieprzenoszalnej, nieodpłatnej licencji, bez prawa udzielania sublicencji, na
+  terytorium całego świata i na czas nieoznaczony (z zastrzeżeniem pkt 5 i 11), wyłącznie na
+  Użytek Prywatny, w zakresie:
+  a) pobrania, instalacji i uruchamiania Oprogramowania;
+  b) czytania i analizowania kodu źródłowego;
+  c) tworzenia Modyfikacji na własny Użytek Prywatny, bez ich rozpowszechniania;
+  d) nieodpłatnego przekazywania wiernych, niezmienionych kopii Oprogramowania innym osobom
+     fizycznym na ich Użytek Prywatny, wraz z tą licencją i wszystkimi informacjami o prawach
+     autorskich.
+
+  Żadne inne prawa nie zostają udzielone, ani wprost, ani w sposób dorozumiany.
+
+3. Zakazy bez uprzedniej pisemnej zgody Licencjodawcy
+
+  Bez odrębnej, uprzedniej, pisemnej zgody Licencjodawcy (np. licencji komercyjnej) nie wolno:
+  a) używać, instalować ani uruchamiać Oprogramowania przez Organizację, dla niej, w jej imieniu
+     ani na jakimkolwiek urządzeniu należącym do Organizacji, przez nią zarządzanym lub
+     udostępnionym, w tym w firmie, biurze, szkole lub urzędzie;
+  b) używać Oprogramowania w jakimkolwiek celu komercyjnym lub związanym z pracą zarobkową, w tym
+     do świadczenia usług innym ani pisania kodu dla innych;
+  c) sprzedawać, wynajmować, dzierżawić ani w inny sposób pobierać opłat za Oprogramowanie lub
+     Modyfikację, ani włączać ich do jakiegokolwiek produktu, usługi, pakietu lub dystrybucji;
+  d) rozpowszechniać, publikować ani udostępniać jakiejkolwiek Modyfikacji, ani części
+     Oprogramowania osobno;
+  e) udostępniać Oprogramowania ani Modyfikacji jako usługi hostowanej, internetowej lub
+     sieciowej, w tym udostępniać innym osobom jego lokalnego serwera lub API;
+  f) wykorzystywać Oprogramowania, jego promptów, skilli, notatek językowych, katalogu modeli,
+     punktacji zaufania, logiki recenzenta i strażnika, reguł uprawnień ani profili piaskownicy
+     do tworzenia, trenowania, ulepszania lub porównywania innego narzędzia do kodowania z AI,
+     asystenta, modelu albo produktu bezpieczeństwa;
+  g) usuwać, zmieniać ani ukrywać informacji o prawach autorskich, tekstu licencji ani oznaczenia
+     autorstwa;
+  h) używać nazwy „LocalCode”, nazwiska Licencjodawcy ani nazwy łudząco podobnej dla jakiejkolwiek
+     Modyfikacji lub produktu pochodnego.
+
+4. Prawa do Modyfikacji
+
+  4.1 Tworząc Modyfikację, udzielasz Licencjodawcy bezterminowej, nieodwołalnej, światowej,
+      nieodpłatnej, niewyłącznej licencji, z prawem jej przenoszenia i udzielania sublicencji, na
+      korzystanie z tej Modyfikacji, jej zwielokrotnianie, zmienianie, rozpowszechnianie,
+      publikowanie, sublicencjonowanie i komercyjne wykorzystanie w każdej postaci, na wszystkich
+      znanych polach eksploatacji, w tym na włączenie jej do Oprogramowania na dowolnych
+      warunkach licencyjnych.
+  4.2 W tym samym zakresie udzielasz Licencjodawcy licencji do posiadanych przez Ciebie praw
+      patentowych obejmujących Modyfikację i zobowiązujesz się nie dochodzić wobec Licencjodawcy
+      ani jego licencjobiorców żadnych roszczeń z tytułu praw autorskich, patentów ani innych praw
+      dotyczących Modyfikacji.
+  4.3 Modyfikacja pozostaje objęta tą licencją. Nie nabywasz prawa do korzystania z niej w szerszym
+      zakresie, niż pozwala pkt 2.
+  4.4 Wkład do oficjalnego repozytorium LocalCode jest przyjmowany wyłącznie po podpisaniu odrębnej
+      umowy z Licencjodawcą, przenoszącej na niego autorskie prawa majątkowe do tego wkładu.
+
+5. Wygaśnięcie
+
+  Każde naruszenie tej licencji powoduje automatyczne i natychmiastowe wygaśnięcie wszystkich
+  udzielonych Ci praw. Po wygaśnięciu musisz zaprzestać korzystania z Oprogramowania oraz usunąć
+  wszystkie jego kopie i Modyfikacje, które posiadasz. Licencja z pkt 4 pozostaje w mocy po
+  wygaśnięciu. Licencjodawca może przywrócić Twoje prawa wyłącznie na piśmie.
+
+6. Licencje komercyjne i dla organizacji
+
+  Organizacje oraz każdy, kto potrzebuje uprawnień szerszych niż w tej licencji, mogą wystąpić do
+  Licencjodawcy o odrębną pisemną licencję za pośrednictwem oficjalnego repozytorium LocalCode.
+
+7. Komponenty zewnętrzne
+
+  Modele językowe, obrazów, wideo i mowy, które Oprogramowanie pobiera (np. z Hugging Face lub z
+  folderów LM Studio), środowiska uruchomieniowe, którymi steruje (np. llama.cpp, mlx-lm, mflux),
+  usługi zdalnych dostawców modeli, z którymi łączysz się własnymi kluczami API (np. OpenAI,
+  Anthropic, Google, DeepInfra, unlid.ai), skaner Cerber oraz pakiety Pythona i Swifta, od których
+  Oprogramowanie zależy, nie są częścią Oprogramowania i nie są objęte tą licencją. Podlegają
+  własnym licencjom i regulaminom, których musisz przestrzegać. Opłaty naliczane przez zdalnych
+  dostawców obciążają wyłącznie Ciebie.
+
+8. Brak gwarancji
+
+  OPROGRAMOWANIE JEST UDOSTĘPNIANE „TAK JAK JEST”, BEZ JAKICHKOLWIEK GWARANCJI, WYRAŹNYCH ANI
+  DOROZUMIANYCH, W TYM GWARANCJI PRZYDATNOŚCI HANDLOWEJ, PRZYDATNOŚCI DO OKREŚLONEGO CELU,
+  POPRAWNOŚCI LUB NIENARUSZANIA PRAW. OPROGRAMOWANIE URUCHAMIA MODELE AI, KTÓRE MOGĄ TWORZYĆ,
+  ZMIENIAĆ I USUWAĆ PLIKI ORAZ WYKONYWAĆ POLECENIA NA TWOIM KOMPUTERZE, A TAKŻE WYSYŁAĆ DANE DO
+  SKONFIGUROWANYCH PRZEZ CIEBIE ZDALNYCH DOSTAWCÓW; JEGO RECENZENCI, STRAŻNICY, REGUŁY UPRAWNIEŃ I
+  PIASKOWNICA NIE WYCHWYTUJĄ KAŻDEGO SZKODLIWEGO DZIAŁANIA. MODELE MOGĄ GENEROWAĆ BŁĘDNY LUB
+  NIEBEZPIECZNY KOD. ODPOWIADASZ ZA WŁASNE KOPIE ZAPASOWE, ZA KONTROLĘ TEGO, CO OPROGRAMOWANIE
+  ROBI, ORAZ ZA WSZELKIE KOSZTY NALICZANE PRZEZ ZDALNYCH DOSTAWCÓW.
+
+9. Ograniczenie odpowiedzialności
+
+  W NAJSZERSZYM ZAKRESIE DOPUSZCZALNYM PRZEZ PRAWO LICENCJODAWCA NIE PONOSI ODPOWIEDZIALNOŚCI ZA
+  JAKIEKOLWIEK SZKODY WYNIKAJĄCE Z OPROGRAMOWANIA LUB TEJ LICENCJI ALBO Z NIMI ZWIĄZANE, W TYM ZA
+  UTRATĘ DANYCH, ZYSKÓW LUB MOŻLIWOŚCI KORZYSTANIA, NIEZALEŻNIE OD PODSTAWY PRAWNEJ. NIE OGRANICZA
+  TO ODPOWIEDZIALNOŚCI, KTÓREJ NIE MOŻNA WYŁĄCZYĆ NA MOCY PRAWA, W SZCZEGÓLNOŚCI ZA SZKODĘ
+  WYRZĄDZONĄ UMYŚLNIE.
+
+10. Prawo właściwe
+
+  Licencja podlega prawu Rzeczypospolitej Polskiej z wyłączeniem norm kolizyjnych. Spory rozstrzyga
+  sąd powszechny właściwy dla miejsca zamieszkania Licencjodawcy, chyba że bezwzględnie
+  obowiązujące przepisy (w szczególności o ochronie konsumentów) stanowią inaczej. Jeżeli
+  którekolwiek postanowienie okaże się nieskuteczne, pozostałe pozostają w mocy, a nieskuteczne
+  zastępuje się ważnym postanowieniem najbliższym jego celowi.
+
+11. Zmiana licencji
+
+  11.1 Licencjodawca zastrzega sobie prawo do zmiany tej licencji lub udzielania licencji na
+       Oprogramowanie na dowolnych innych warunkach w każdym czasie, w tym do publikowania nowych
+       wersji tej licencji, udzielania odrębnych licencji wybranym osobom oraz udostępnienia
+       Oprogramowania na innej licencji (także otwartej).
+  11.2 Nowa licencja obowiązuje dla każdej kopii Oprogramowania uzyskanej po jej opublikowaniu w
+       oficjalnym repozytorium LocalCode.
+  11.3 W odniesieniu do kopii uzyskanych wcześniej Licencjodawca może wypowiedzieć tę licencję,
+       publikując informację w oficjalnym repozytorium LocalCode, z zachowaniem 30-dniowego terminu
+       wypowiedzenia (co stanowi umowny termin w rozumieniu art. 68 ustawy o prawie autorskim i
+       prawach pokrewnych). Jeżeli wraz z wypowiedzeniem Licencjodawca zaproponuje nowe warunki,
+       dalsze korzystanie z Oprogramowania po upływie terminu oznacza ich akceptację; w przeciwnym
+       razie musisz zaprzestać korzystania z Oprogramowania i je usunąć.
+  11.4 Licencja udzielona Licencjodawcy w pkt 4 nie może zostać zmieniona ani wypowiedziana w
+       drodze zmiany tej licencji.

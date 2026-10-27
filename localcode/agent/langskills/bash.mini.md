@@ -1,0 +1,4 @@
+- Start scripts with `#!/usr/bin/env bash` and `set -euo pipefail` (exit on error, unset var, pipe failure). Lint with `shellcheck`.
+- Always quote expansions: `"$var"`, `"$@"`, `"${arr[@]}"`. Use `$(...)` not backticks. Prefer `[[ ... ]]` over `[ ... ]`. Check commands exist / exit codes.
+- Use `local` in functions; `mktemp` for temp files with a cleanup `trap`. Avoid parsing `ls`; use globs/`find -print0` + `read -d ''`.
+- For POSIX `/bin/sh` scripts, avoid bashisms (`[[`, arrays). Test by running with `bash -n` (syntax) and actually executing on sample input.

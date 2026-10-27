@@ -1,0 +1,1 @@
+{"weightsBytes": 396705472, "kvCacheBytes": 939524096, "overheadBytes": 195302006, "totalBytes": 1531531574, "nCtx": 8192, "nParallel": 1, "fits": "yes", "message": "Zmieści się: ~1,4 GB (wagi 0,4 GB + kontekst 0,9 GB + bufory 0,2 GB)."}

@@ -1,0 +1,8 @@
+{"type": "status", "message": "Ładowanie modelu…", "phase": "loading"}
+{"type": "status", "message": "Myślę…", "phase": "thinking"}
+{"type": "compaction", "before": 12400, "after": 5100, "strategy": "summarize"}
+{"type": "todos", "items": [{"content": "Przejrzeć moduł obliczeń", "status": "done"}, {"content": "Dodać testy brzegowe", "status": "in_progress"}, {"content": "Uruchomić pytest", "status": "pending"}]}
+{"type": "permission_request", "requestId": "syn-1", "tool": "bash", "title": "Polecenie: pytest -q", "preview": "pytest -q", "options": ["allow", "deny", "always"]}
+{"type": "permission_request", "requestId": "syn-2", "tool": "edit_file", "title": "Edycja src/calc.py", "preview": "--- a/src/calc.py\n+++ b/src/calc.py\n@@ -1,4 +1,4 @@\n-def add(a, b):\n-    return a - b\n+def add(a, b):\n+    return a + b\n", "options": ["allow", "deny", "always"]}
+{"type": "error", "message": "Model nie odpowiedział na czas. Spróbuj ponownie."}
+{"type": "turn_end", "turnId": "syn", "reason": "max_steps", "stats": {"steps": 20, "genTps": 31.2, "completionTokens": 4210, "elapsedMs": 135000}}

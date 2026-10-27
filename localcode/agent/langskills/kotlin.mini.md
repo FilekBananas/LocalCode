@@ -1,0 +1,4 @@
+- Build with Gradle (`build.gradle.kts`/`build.gradle`): `./gradlew build test`. Use the wrapper, not a global gradle/kotlinc.
+- Embrace null safety: `val` over `var`, nullable types `T?` with `?.`, `?:`, `let`; avoid `!!`. Use `data class`, `sealed class`/`when` (exhaustive), extension functions, named/default args, `when` expressions.
+- Prefer immutable collections (`listOf`, `mapOf`) and standard functions (`map`, `filter`, `let`, `apply`, `also`). Coroutines (`suspend`, `launch`) for async.
+- Tests: JUnit 5 or kotlin.test (`@Test`, `assertEquals`); run via Gradle.

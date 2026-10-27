@@ -1,0 +1,5 @@
+- Run from the project's environment, not system Python: `.venv/bin/python`, `.venv/bin/pytest -q`. Check for a `.venv` / `pyproject.toml` first.
+- Prefer the stdlib; add a dependency only when it already appears in `pyproject.toml`/`requirements.txt`.
+- Type-hint new public functions. Follow PEP 8 (4-space indent, snake_case, `UPPER_CASE` constants). Use f-strings, `pathlib.Path`, context managers (`with`).
+- Raise specific exceptions; never `except:` bare. Guard scripts with `if __name__ == "__main__":`.
+- Tests: pytest, files `test_*.py`, plain `assert`. Run the suite after changes and read the first failure.

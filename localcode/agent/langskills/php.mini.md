@@ -1,0 +1,4 @@
+- Composer project (`composer.json`): install `composer install`, add deps `composer require <vendor/pkg>`, autoload via `vendor/autoload.php`. Run scripts `composer run <name>`.
+- Modern PHP: `declare(strict_types=1);`, type-hint params/returns, classes/namespaces (PSR-4), `??`/`?->`, `match`, visibility on all members. Follow PSR-12 formatting.
+- Throw/catch `Exception`/`Throwable`; don't suppress with `@`. Use PDO with prepared statements (never interpolate SQL).
+- Tests: PHPUnit (`extends TestCase`, `test*`/`#[Test]`); run `./vendor/bin/phpunit`.

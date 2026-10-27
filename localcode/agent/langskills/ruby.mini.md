@@ -1,0 +1,4 @@
+- Bundler project (`Gemfile`): install `bundle install`, run tools with `bundle exec <cmd>`. Rails uses `bin/rails`.
+- Idioms: blocks/iterators (`each`, `map`, `select`), symbols for keys, string interpolation `"#{x}"`, `||=`, safe navigation `&.`, keyword args, guard clauses (`return ... if`). 2-space indent, snake_case methods, CamelCase classes, `?`/`!` suffixes.
+- Raise specific `StandardError` subclasses; `rescue` narrowly, not bare. Prefer immutable where possible; `.freeze` constants.
+- Tests: RSpec (`describe`/`it`/`expect`) or Minitest; run `bundle exec rspec`/`rake test`.

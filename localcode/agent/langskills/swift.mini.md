@@ -1,0 +1,4 @@
+- SwiftPM project (`Package.swift`): build `swift build`, test `swift test`, run `swift run <target>`. Xcode projects use `xcodebuild` or the IDE.
+- Prefer `let` over `var`; use optionals with `if let`/`guard let`/`??`, never force-unwrap `!` casually. Use `struct`/`enum` (value types) by default, `class` for identity/reference.
+- Error handling with `throws`/`try`/`do-catch`; `Result` where it fits. Follow Swift API design guidelines (camelCase, clear argument labels).
+- Tests: XCTest (`XCTestCase`, `XCTAssert…`) or swift-testing (`@Test`, `#expect`). Run `swift test`.

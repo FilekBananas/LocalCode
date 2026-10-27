@@ -1,0 +1,4 @@
+- Build with the project's tool: Maven (`pom.xml`) → `mvn test`/`mvn package`; Gradle (`build.gradle`) → `./gradlew test build`. Don't call `javac` directly in a built project.
+- Idioms: program to interfaces, `final` where possible, `Optional<T>` instead of returning null, try-with-resources for closeables, generics (no raw types), enhanced `for`/streams. Follow standard naming (camelCase methods, PascalCase classes, UPPER_SNAKE constants).
+- Throw specific exceptions; don't swallow them. Use `equals()`/`hashCode()` together; `StringBuilder` for loops.
+- Tests: JUnit 5 (`@Test`, `Assertions.assertEquals`); run via Maven/Gradle.

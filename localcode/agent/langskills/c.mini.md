@@ -1,0 +1,4 @@
+- Build with the project's `Makefile` (`make`) or CMake; else `cc -std=c11 -Wall -Wextra -g file.c -o prog`. Keep warnings clean.
+- Manual memory: every `malloc`/`calloc` needs exactly one `free`; set freed pointers to NULL; never use after free. Check every allocation and return value.
+- Check return codes (functions return int/`-1`/NULL on error, set `errno`). Bounds-check array/buffer access; prefer `snprintf` over `sprintf`, `strncpy`/`memcpy` with sizes. No VLAs for untrusted sizes.
+- Declarations in `.h` with include guards, definitions in `.c`. Test harness varies; run `make test` if present. Consider `valgrind`/ASan.

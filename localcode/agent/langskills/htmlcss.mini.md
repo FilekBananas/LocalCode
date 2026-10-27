@@ -1,0 +1,4 @@
+- Use semantic HTML: `<header>/<nav>/<main>/<section>/<article>/<footer>`, headings in order, `<button>` for actions and `<a href>` for navigation, `<label>` tied to every input. Always set `<!doctype html>`, `lang`, charset, and the responsive viewport meta.
+- Accessibility: meaningful `alt` text, sufficient color contrast, keyboard focus, ARIA only when native elements can't do it.
+- CSS: external stylesheet, class selectors (avoid `!important` and deep nesting), a mobile-first responsive layout with flexbox/grid, relative units (`rem`/`%`), and CSS custom properties for theme values.
+- Validate markup; test narrow (mobile) and wide widths.

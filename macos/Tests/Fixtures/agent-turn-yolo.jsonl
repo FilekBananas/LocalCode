@@ -1,0 +1,465 @@
+{"type": "session", "session": {"id": "20260923-143715-97248b", "cwd": "/tmp/proj", "modelKey": "unsloth/Qwen3-0.6B-GGUF/Qwen3-0.6B-Q4_K_M", "mode": "yolo", "title": "", "createdAt": 1790167035596, "updatedAt": 1790167035597, "contextUsed": 0, "contextLimit": 0, "busy": false}}
+{"type": "history", "items": []}
+{"type": "session", "session": {"id": "20260923-143715-97248b", "cwd": "/tmp/proj", "modelKey": "unsloth/Qwen3-0.6B-GGUF/Qwen3-0.6B-Q4_K_M", "mode": "yolo", "title": "", "createdAt": 1790167035596, "updatedAt": 1790167035598, "contextUsed": 0, "contextLimit": 0, "busy": true}}
+{"type": "ack", "of": "user", "status": "started"}
+{"type": "session", "session": {"id": "20260923-143715-97248b", "cwd": "/tmp/proj", "modelKey": "unsloth/Qwen3-0.6B-GGUF/Qwen3-0.6B-Q4_K_M", "mode": "yolo", "title": "List the files in this directory, then create a file notes.…", "createdAt": 1790167035596, "updatedAt": 1790167035598, "contextUsed": 0, "contextLimit": 0, "busy": true}}
+{"type": "turn_start", "turnId": "14a3cb13344a", "userText": "List the files in this directory, then create a file notes.txt containing the single line: Hello LocalCode"}
+{"type": "context", "used": 993, "limit": 8192, "system": 253, "tools": 711, "history": 29, "reserve": 1638}
+{"type": "reasoning_delta", "text": "Okay"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " let"}
+{"type": "reasoning_delta", "text": "'s"}
+{"type": "reasoning_delta", "text": " see"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " The"}
+{"type": "reasoning_delta", "text": " user"}
+{"type": "reasoning_delta", "text": " wants"}
+{"type": "reasoning_delta", "text": " me"}
+{"type": "reasoning_delta", "text": " to"}
+{"type": "reasoning_delta", "text": " list"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " files"}
+{"type": "reasoning_delta", "text": " in"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " current"}
+{"type": "reasoning_delta", "text": " directory"}
+{"type": "reasoning_delta", "text": " and"}
+{"type": "reasoning_delta", "text": " then"}
+{"type": "reasoning_delta", "text": " create"}
+{"type": "reasoning_delta", "text": " a"}
+{"type": "reasoning_delta", "text": " file"}
+{"type": "reasoning_delta", "text": " called"}
+{"type": "reasoning_delta", "text": " notes"}
+{"type": "reasoning_delta", "text": ".txt"}
+{"type": "reasoning_delta", "text": " with"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " line"}
+{"type": "reasoning_delta", "text": " \""}
+{"type": "reasoning_delta", "text": "Hello"}
+{"type": "reasoning_delta", "text": " Local"}
+{"type": "reasoning_delta", "text": "Code"}
+{"type": "reasoning_delta", "text": "\"."}
+{"type": "reasoning_delta", "text": " \n\n"}
+{"type": "reasoning_delta", "text": "First"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " I"}
+{"type": "reasoning_delta", "text": " need"}
+{"type": "reasoning_delta", "text": " to"}
+{"type": "reasoning_delta", "text": " list"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " files"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " The"}
+{"type": "reasoning_delta", "text": " available"}
+{"type": "reasoning_delta", "text": " tools"}
+{"type": "reasoning_delta", "text": " include"}
+{"type": "reasoning_delta", "text": " list"}
+{"type": "reasoning_delta", "text": "_dir"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " which"}
+{"type": "reasoning_delta", "text": " lists"}
+{"type": "reasoning_delta", "text": " a"}
+{"type": "reasoning_delta", "text": " directory"}
+{"type": "reasoning_delta", "text": " as"}
+{"type": "reasoning_delta", "text": " a"}
+{"type": "reasoning_delta", "text": " tree"}
+{"type": "reasoning_delta", "text": " with"}
+{"type": "reasoning_delta", "text": " file"}
+{"type": "reasoning_delta", "text": " sizes"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " So"}
+{"type": "reasoning_delta", "text": " I"}
+{"type": "reasoning_delta", "text": " should"}
+{"type": "reasoning_delta", "text": " use"}
+{"type": "reasoning_delta", "text": " list"}
+{"type": "reasoning_delta", "text": "_dir"}
+{"type": "reasoning_delta", "text": " with"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " path"}
+{"type": "reasoning_delta", "text": " set"}
+{"type": "reasoning_delta", "text": " to"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " cwd"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " which"}
+{"type": "reasoning_delta", "text": " is"}
+{"type": "reasoning_delta", "text": " /"}
+{"type": "reasoning_delta", "text": "private"}
+{"type": "reasoning_delta", "text": "/tmp"}
+{"type": "reasoning_delta", "text": "/"}
+{"type": "reasoning_delta", "text": "cla"}
+{"type": "reasoning_delta", "text": "ude"}
+{"type": "reasoning_delta", "text": "-"}
+{"type": "reasoning_delta", "text": "5"}
+{"type": "reasoning_delta", "text": "0"}
+{"type": "reasoning_delta", "text": "1"}
+{"type": "reasoning_delta", "text": "/code"}
+{"type": "reasoning_delta", "text": "feature"}
+{"type": "reasoning_delta", "text": "/pro"}
+{"type": "reasoning_delta", "text": "j"}
+{"type": "reasoning_delta", "text": ".\n\n"}
+{"type": "reasoning_delta", "text": "Next"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " after"}
+{"type": "reasoning_delta", "text": " listing"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " files"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " I"}
+{"type": "reasoning_delta", "text": " need"}
+{"type": "reasoning_delta", "text": " to"}
+{"type": "reasoning_delta", "text": " create"}
+{"type": "reasoning_delta", "text": " notes"}
+{"type": "reasoning_delta", "text": ".txt"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " The"}
+{"type": "reasoning_delta", "text": " create"}
+{"type": "reasoning_delta", "text": "_file"}
+{"type": "reasoning_delta", "text": " function"}
+{"type": "reasoning_delta", "text": " can"}
+{"type": "reasoning_delta", "text": " be"}
+{"type": "reasoning_delta", "text": " used"}
+{"type": "reasoning_delta", "text": " here"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " But"}
+{"type": "reasoning_delta", "text": " wait"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " user"}
+{"type": "reasoning_delta", "text": " specified"}
+{"type": "reasoning_delta", "text": " creating"}
+{"type": "reasoning_delta", "text": " a"}
+{"type": "reasoning_delta", "text": " file"}
+{"type": "reasoning_delta", "text": " named"}
+{"type": "reasoning_delta", "text": " notes"}
+{"type": "reasoning_delta", "text": ".txt"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " So"}
+{"type": "reasoning_delta", "text": " I"}
+{"type": "reasoning_delta", "text": "'ll"}
+{"type": "reasoning_delta", "text": " use"}
+{"type": "reasoning_delta", "text": " write"}
+{"type": "reasoning_delta", "text": "_file"}
+{"type": "reasoning_delta", "text": " with"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " path"}
+{"type": "reasoning_delta", "text": " \""}
+{"type": "reasoning_delta", "text": "notes"}
+{"type": "reasoning_delta", "text": ".txt"}
+{"type": "reasoning_delta", "text": "\""}
+{"type": "reasoning_delta", "text": " and"}
+{"type": "reasoning_delta", "text": " content"}
+{"type": "reasoning_delta", "text": " \""}
+{"type": "reasoning_delta", "text": "Hello"}
+{"type": "reasoning_delta", "text": " Local"}
+{"type": "reasoning_delta", "text": "Code"}
+{"type": "reasoning_delta", "text": "\"."}
+{"type": "reasoning_delta", "text": " \n\n"}
+{"type": "reasoning_delta", "text": "I"}
+{"type": "reasoning_delta", "text": " should"}
+{"type": "reasoning_delta", "text": " make"}
+{"type": "reasoning_delta", "text": " sure"}
+{"type": "reasoning_delta", "text": " that"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " list"}
+{"type": "reasoning_delta", "text": "_dir"}
+{"type": "reasoning_delta", "text": " call"}
+{"type": "reasoning_delta", "text": " is"}
+{"type": "reasoning_delta", "text": " done"}
+{"type": "reasoning_delta", "text": " before"}
+{"type": "reasoning_delta", "text": " creating"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " file"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " Since"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " user"}
+{"type": "reasoning_delta", "text": " didn"}
+{"type": "reasoning_delta", "text": "'t"}
+{"type": "reasoning_delta", "text": " mention"}
+{"type": "reasoning_delta", "text": " any"}
+{"type": "reasoning_delta", "text": " other"}
+{"type": "reasoning_delta", "text": " steps"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " just"}
+{"type": "reasoning_delta", "text": " these"}
+{"type": "reasoning_delta", "text": " two"}
+{"type": "reasoning_delta", "text": " actions"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " Let"}
+{"type": "reasoning_delta", "text": " me"}
+{"type": "reasoning_delta", "text": " check"}
+{"type": "reasoning_delta", "text": " if"}
+{"type": "reasoning_delta", "text": " there"}
+{"type": "reasoning_delta", "text": " are"}
+{"type": "reasoning_delta", "text": " any"}
+{"type": "reasoning_delta", "text": " other"}
+{"type": "reasoning_delta", "text": " tools"}
+{"type": "reasoning_delta", "text": " needed"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " No"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " task"}
+{"type": "reasoning_delta", "text": " is"}
+{"type": "reasoning_delta", "text": " straightforward"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " So"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " plan"}
+{"type": "reasoning_delta", "text": " is"}
+{"type": "reasoning_delta", "text": " to"}
+{"type": "reasoning_delta", "text": " first"}
+{"type": "reasoning_delta", "text": " list"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " files"}
+{"type": "reasoning_delta", "text": " and"}
+{"type": "reasoning_delta", "text": " then"}
+{"type": "reasoning_delta", "text": " create"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " notes"}
+{"type": "reasoning_delta", "text": ".txt"}
+{"type": "reasoning_delta", "text": " file"}
+{"type": "reasoning_delta", "text": ".\n"}
+{"type": "tool_call", "callId": "XA0UdDnib", "name": "list_dir", "arguments": {"path": "/tmp/proj"}, "title": "Lista plików: /tmp/proj"}
+{"type": "tool_result", "callId": "XA0UdDnib", "name": "list_dir", "ok": true, "summary": "1 pozycja", "output": "Directory: .\nmain.py (15B)", "diff": null}
+{"type": "tool_call", "callId": "IAP4OxTG5", "name": "write_file", "arguments": {"path": "notes.txt", "content": "Hello LocalCode"}, "title": "Zapis notes.txt"}
+{"type": "tool_result", "callId": "IAP4OxTG5", "name": "write_file", "ok": true, "summary": "Utworzono (1 linia)", "output": "Created notes.txt (1 line).", "diff": "--- /dev/null\n+++ b/notes.txt\n@@ -0,0 +1 @@\n+Hello LocalCode\n"}
+{"type": "context", "used": 1087, "limit": 8192, "system": 253, "tools": 711, "history": 123, "reserve": 1638}
+{"type": "reasoning_delta", "text": "Okay"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " let"}
+{"type": "reasoning_delta", "text": "'s"}
+{"type": "reasoning_delta", "text": " see"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " The"}
+{"type": "reasoning_delta", "text": " user"}
+{"type": "reasoning_delta", "text": " wants"}
+{"type": "reasoning_delta", "text": " me"}
+{"type": "reasoning_delta", "text": " to"}
+{"type": "reasoning_delta", "text": " list"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " files"}
+{"type": "reasoning_delta", "text": " in"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " current"}
+{"type": "reasoning_delta", "text": " directory"}
+{"type": "reasoning_delta", "text": " and"}
+{"type": "reasoning_delta", "text": " then"}
+{"type": "reasoning_delta", "text": " create"}
+{"type": "reasoning_delta", "text": " a"}
+{"type": "reasoning_delta", "text": " file"}
+{"type": "reasoning_delta", "text": " called"}
+{"type": "reasoning_delta", "text": " notes"}
+{"type": "reasoning_delta", "text": ".txt"}
+{"type": "reasoning_delta", "text": " with"}
+{"type": "reasoning_delta", "text": " a"}
+{"type": "reasoning_delta", "text": " single"}
+{"type": "reasoning_delta", "text": " line"}
+{"type": "reasoning_delta", "text": ":"}
+{"type": "reasoning_delta", "text": " \""}
+{"type": "reasoning_delta", "text": "Hello"}
+{"type": "reasoning_delta", "text": " Local"}
+{"type": "reasoning_delta", "text": "Code"}
+{"type": "reasoning_delta", "text": "\"."}
+{"type": "reasoning_delta", "text": " \n\n"}
+{"type": "reasoning_delta", "text": "First"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " I"}
+{"type": "reasoning_delta", "text": " need"}
+{"type": "reasoning_delta", "text": " to"}
+{"type": "reasoning_delta", "text": " list"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " files"}
+{"type": "reasoning_delta", "text": " using"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " list"}
+{"type": "reasoning_delta", "text": "_dir"}
+{"type": "reasoning_delta", "text": " tool"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " The"}
+{"type": "reasoning_delta", "text": " path"}
+{"type": "reasoning_delta", "text": " parameter"}
+{"type": "reasoning_delta", "text": " is"}
+{"type": "reasoning_delta", "text": " set"}
+{"type": "reasoning_delta", "text": " to"}
+{"type": "reasoning_delta", "text": " \"/"}
+{"type": "reasoning_delta", "text": "private"}
+{"type": "reasoning_delta", "text": "/tmp"}
+{"type": "reasoning_delta", "text": "/"}
+{"type": "reasoning_delta", "text": "cla"}
+{"type": "reasoning_delta", "text": "ude"}
+{"type": "reasoning_delta", "text": "-"}
+{"type": "reasoning_delta", "text": "5"}
+{"type": "reasoning_delta", "text": "0"}
+{"type": "reasoning_delta", "text": "1"}
+{"type": "reasoning_delta", "text": "/code"}
+{"type": "reasoning_delta", "text": "feature"}
+{"type": "reasoning_delta", "text": "/pro"}
+{"type": "reasoning_delta", "text": "j"}
+{"type": "reasoning_delta", "text": "\","}
+{"type": "reasoning_delta", "text": " which"}
+{"type": "reasoning_delta", "text": " should"}
+{"type": "reasoning_delta", "text": " include"}
+{"type": "reasoning_delta", "text": " all"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " necessary"}
+{"type": "reasoning_delta", "text": " directories"}
+{"type": "reasoning_delta", "text": " and"}
+{"type": "reasoning_delta", "text": " files"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " Once"}
+{"type": "reasoning_delta", "text": " I"}
+{"type": "reasoning_delta", "text": " get"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " list"}
+{"type": "reasoning_delta", "text": " of"}
+{"type": "reasoning_delta", "text": " files"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " I"}
+{"type": "reasoning_delta", "text": " can"}
+{"type": "reasoning_delta", "text": " proceed"}
+{"type": "reasoning_delta", "text": " to"}
+{"type": "reasoning_delta", "text": " create"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " notes"}
+{"type": "reasoning_delta", "text": ".txt"}
+{"type": "reasoning_delta", "text": " file"}
+{"type": "reasoning_delta", "text": ".\n\n"}
+{"type": "reasoning_delta", "text": "Next"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " I"}
+{"type": "reasoning_delta", "text": " have"}
+{"type": "reasoning_delta", "text": " to"}
+{"type": "reasoning_delta", "text": " create"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " notes"}
+{"type": "reasoning_delta", "text": ".txt"}
+{"type": "reasoning_delta", "text": " file"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " Since"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " user"}
+{"type": "reasoning_delta", "text": " specified"}
+{"type": "reasoning_delta", "text": " a"}
+{"type": "reasoning_delta", "text": " single"}
+{"type": "reasoning_delta", "text": " line"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " I"}
+{"type": "reasoning_delta", "text": "'ll"}
+{"type": "reasoning_delta", "text": " use"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " write"}
+{"type": "reasoning_delta", "text": "_file"}
+{"type": "reasoning_delta", "text": " tool"}
+{"type": "reasoning_delta", "text": " with"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " path"}
+{"type": "reasoning_delta", "text": " \""}
+{"type": "reasoning_delta", "text": "notes"}
+{"type": "reasoning_delta", "text": ".txt"}
+{"type": "reasoning_delta", "text": "\""}
+{"type": "reasoning_delta", "text": " and"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " content"}
+{"type": "reasoning_delta", "text": " string"}
+{"type": "reasoning_delta", "text": " as"}
+{"type": "reasoning_delta", "text": " \""}
+{"type": "reasoning_delta", "text": "Hello"}
+{"type": "reasoning_delta", "text": " Local"}
+{"type": "reasoning_delta", "text": "Code"}
+{"type": "reasoning_delta", "text": "\"."}
+{"type": "reasoning_delta", "text": " The"}
+{"type": "reasoning_delta", "text": " file"}
+{"type": "reasoning_delta", "text": " should"}
+{"type": "reasoning_delta", "text": " be"}
+{"type": "reasoning_delta", "text": " created"}
+{"type": "reasoning_delta", "text": " without"}
+{"type": "reasoning_delta", "text": " over"}
+{"type": "reasoning_delta", "text": "writing"}
+{"type": "reasoning_delta", "text": " anything"}
+{"type": "reasoning_delta", "text": " else"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " which"}
+{"type": "reasoning_delta", "text": " is"}
+{"type": "reasoning_delta", "text": " why"}
+{"type": "reasoning_delta", "text": " there"}
+{"type": "reasoning_delta", "text": "'s"}
+{"type": "reasoning_delta", "text": " no"}
+{"type": "reasoning_delta", "text": " need"}
+{"type": "reasoning_delta", "text": " for"}
+{"type": "reasoning_delta", "text": " an"}
+{"type": "reasoning_delta", "text": " edit"}
+{"type": "reasoning_delta", "text": "_file"}
+{"type": "reasoning_delta", "text": " here"}
+{"type": "reasoning_delta", "text": ".\n\n"}
+{"type": "reasoning_delta", "text": "I"}
+{"type": "reasoning_delta", "text": " need"}
+{"type": "reasoning_delta", "text": " to"}
+{"type": "reasoning_delta", "text": " make"}
+{"type": "reasoning_delta", "text": " sure"}
+{"type": "reasoning_delta", "text": " that"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " list"}
+{"type": "reasoning_delta", "text": "_dir"}
+{"type": "reasoning_delta", "text": " call"}
+{"type": "reasoning_delta", "text": " returns"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " correct"}
+{"type": "reasoning_delta", "text": " directory"}
+{"type": "reasoning_delta", "text": " structure"}
+{"type": "reasoning_delta", "text": " and"}
+{"type": "reasoning_delta", "text": " that"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " create"}
+{"type": "reasoning_delta", "text": " file"}
+{"type": "reasoning_delta", "text": " operation"}
+{"type": "reasoning_delta", "text": " is"}
+{"type": "reasoning_delta", "text": " successful"}
+{"type": "reasoning_delta", "text": "."}
+{"type": "reasoning_delta", "text": " After"}
+{"type": "reasoning_delta", "text": " creating"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " file"}
+{"type": "reasoning_delta", "text": ","}
+{"type": "reasoning_delta", "text": " I"}
+{"type": "reasoning_delta", "text": " should"}
+{"type": "reasoning_delta", "text": " confirm"}
+{"type": "reasoning_delta", "text": " that"}
+{"type": "reasoning_delta", "text": " it"}
+{"type": "reasoning_delta", "text": "'s"}
+{"type": "reasoning_delta", "text": " been"}
+{"type": "reasoning_delta", "text": " created"}
+{"type": "reasoning_delta", "text": " and"}
+{"type": "reasoning_delta", "text": " that"}
+{"type": "reasoning_delta", "text": " the"}
+{"type": "reasoning_delta", "text": " user"}
+{"type": "reasoning_delta", "text": "'s"}
+{"type": "reasoning_delta", "text": " request"}
+{"type": "reasoning_delta", "text": " is"}
+{"type": "reasoning_delta", "text": " complete"}
+{"type": "reasoning_delta", "text": ".\n"}
+{"type": "text_delta", "text": "List"}
+{"type": "text_delta", "text": "ed"}
+{"type": "text_delta", "text": " files"}
+{"type": "text_delta", "text": " in"}
+{"type": "text_delta", "text": " the"}
+{"type": "text_delta", "text": " directory"}
+{"type": "text_delta", "text": ":"}
+{"type": "text_delta", "text": " main"}
+{"type": "text_delta", "text": ".py"}
+{"type": "text_delta", "text": ","}
+{"type": "text_delta", "text": " notes"}
+{"type": "text_delta", "text": ".txt"}
+{"type": "text_delta", "text": "."}
+{"type": "text_delta", "text": " Created"}
+{"type": "text_delta", "text": " notes"}
+{"type": "text_delta", "text": ".txt"}
+{"type": "text_delta", "text": " with"}
+{"type": "text_delta", "text": " \""}
+{"type": "text_delta", "text": "Hello"}
+{"type": "text_delta", "text": " Local"}
+{"type": "text_delta", "text": "Code"}
+{"type": "text_delta", "text": "\"."}
+{"type": "session", "session": {"id": "20260923-143715-97248b", "cwd": "/tmp/proj", "modelKey": "unsloth/Qwen3-0.6B-GGUF/Qwen3-0.6B-Q4_K_M", "mode": "yolo", "title": "List the files in this directory, then create a file notes.…", "createdAt": 1790167035596, "updatedAt": 1790167050661, "contextUsed": 1087, "contextLimit": 8192, "busy": false}}
+{"type": "turn_end", "turnId": "14a3cb13344a", "reason": "done", "stats": {"promptTokens": 2080, "cachedTokens": 993, "completionTokens": 521, "promptTps": 1749.5, "genTps": 35.3, "totalMs": 14741, "steps": 2, "elapsedMs": 15063}}
